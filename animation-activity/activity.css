@@ -28,16 +28,25 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {
+    animation-direction:forward;
+  }
+  to {
+    rotate: 45deg;
+    transform:
+  }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {rotate: -45deg;
+  transform: translate(50%);}
 }
